@@ -1,7 +1,7 @@
 {
   "name": "basscss-utility-responsive-states",
   "version": "0.0.1",
-  "description": "Responsive state utilities module for BASSCSS",
+  "description": "Responsive state utilities module for Basscss",
   "repository": {
     "type": "git",
     "url": "https://github.com/jxnblk/basscss-utility-responsive-states.git"
@@ -9,9 +9,13 @@
   "keywords": [
     "CSS",
     "OOCSS",
-    "BASSCSS",
+    "Basscss",
     "Rework"
   ],
   "author": "Brent Jackson",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-utility-responsive-states/issues"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-utility-responsive-states"
 }
