@@ -1,9 +1,3 @@
-# Basscss Utility Responsive States
-
-<p class="hide">Responsive state utilities module for Basscss</p>
-
-<a href="http://basscss.com" class="hide">basscss.com</a>
-
 These styles allow for conditionally showing and hiding elements using a mobile-first approach.
 
 ## Prefix Naming Convention
