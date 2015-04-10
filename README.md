@@ -1,10 +1,13 @@
-These styles allow for conditionally showing and hiding elements using a mobile-first approach.
+
+Use these utilities to conditionally show and hide elements based on viewport width using a mobile-first approach.
 
 ## Prefix Naming Convention
 
-<div class="overflow-scroll">
-  <table class="mb2 table-light overflow-hidden border rounded">
-    <thead class="bg-darken-1">
+All breakpoint-based styles in Basscss follow the same naming convention.
+
+<div class="overflow-auto">
+  <table class="mb2 table-flush table-light">
+    <thead>
       <tr> <th>Prefix</th> <th>Description</th> </tr>
     </thead>
     <tbody>
@@ -16,41 +19,10 @@ These styles allow for conditionally showing and hiding elements using a mobile-
   </table>
 </div>
 
-To adjust the default breakpoints, declare custom media queries after importing the file via Rework, or manually adjust them in CSS.
+Adjust the custom media queries to suite your needs.
 
-```css
-.sm-show, .md-show, .lg-show {
-  display: none !important
-}
-@media (--breakpoint-sm) {
-  .sm-show { display: block !important }
-}
-@media (--breakpoint-md) {
-  .md-show { display: block !important }
-}
-@media (--breakpoint-lg) {
-  .lg-show { display: block !important }
-}
-@media (--breakpoint-sm) {
-  .sm-hide { display: none !important }
-}
-@media (--breakpoint-md) {
-  .md-hide { display: none !important }
-}
-@media (--breakpoint-lg) {
-  .lg-hide { display: none !important }
-}
-.display-none { display: none !important }
-.hide {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-}
-```
 
-## Example
+## Show and hide content
 Resize the browser window to see the effect.
 
 ```html
@@ -69,3 +41,14 @@ Control wrapping at different screen widths.
 </h1>
 ```
 
+## Accessible Hide
+
+To visually hide things like form labels in an accessible way, use the `.hide` utility.
+
+```html
+<form>
+  <label for="search" class="hide">Search</label>
+  <input id="search" type="search" class="field-light">
+  <button class="button">Go</button>
+</form>
+```
