@@ -4,7 +4,7 @@
   "description": "Responsive state utilities module for Basscss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jxnblk/basscss-utility-responsive-states.git"
+    "url": "https://github.com/basscss/responsive-states.git"
   },
   "keywords": [
     "CSS",
@@ -15,7 +15,7 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jxnblk/basscss-utility-responsive-states/issues"
+    "url": "https://github.com/basscss/responsive-states/issues"
   },
-  "homepage": "https://github.com/jxnblk/basscss-utility-responsive-states"
+  "homepage": "https://github.com/basscss/responsive-states"
 }
